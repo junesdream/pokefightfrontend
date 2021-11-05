@@ -1,0 +1,21 @@
+.layout_container {
+  margin: 10px;
+}
+
+#navigation_container {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+#outlet_container {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+#footer_container {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}

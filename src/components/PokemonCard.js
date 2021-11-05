@@ -24,7 +24,10 @@ const PokemonCard = () => {
   return (
     <div className='pokemoncard_container'>
       <h3>{pokemon.name.english}</h3>
-      <img src={pokemon.image} alt={pokemon.name.english} />
+      <img
+        src={`https://img.pokemondb.net/artwork/large/${pokemon.name.english.toLowerCase()}.jpg`}
+        alt={pokemon.name.english}
+      />
       <p>id: {pokemon.id}</p>
       <p>
         {pokemon.type.map((t) => (
