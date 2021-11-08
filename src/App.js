@@ -6,16 +6,16 @@ import './App.css'
 
 function App() {
   return (
-    <div className='App'>
-      <Navigation />
-      <div className='randomCards_container'>
-        <PokemonCard />
-        <PokemonCard />
-        <PokemonCard />
-      </div>
-      <Footer />
-    </div>
-  )
+		<div className="App">
+			<Navigation />
+			<div className="randomCards_container">
+				<PokemonCard />
+				<PokemonCard />
+				<PokemonCard />
+			</div>
+			<Footer />
+		</div>
+  );
 }
 
 export default App

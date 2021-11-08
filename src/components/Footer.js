@@ -12,7 +12,6 @@ import {
 const Footer = () => {
 	return (
 		<div className="footer_container">
-			Footer
 			<div className="footer-element">
 				<div className="footer-element-label">Pokemon Element </div>
 				<p>Element 1</p>
