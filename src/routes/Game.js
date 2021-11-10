@@ -1,7 +1,8 @@
+import React from 'react'
 import './Game.css'
 
 const Game = () => {
-  return <div className='game_container'>Game</div>
+  return <>Game</>
 }
 
 export default Game

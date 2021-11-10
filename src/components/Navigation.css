@@ -1,45 +1,44 @@
 .navigation_container {
-  margin: 10px;
   color: red;
   position: absolute;
-	display: flex;
-	text-transform: uppercase;
-	padding-left: 10%;
-	font-family: "Nosifer";
-	width: 90%;
-	height: 3.5rem;
-	background: linear-gradient(#2b2b2b, #434343);
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.7);
-	border-bottom: 1px solid rgb(230, 0, 0);
-	border-top: 1px solid rgb(230, 0, 0);
+  display: flex;
+  text-transform: uppercase;
+  padding-left: 10%;
+  font-family: 'Nosifer';
+  width: 90%;
+  height: 3.5rem;
+  background: linear-gradient(#2b2b2b, #434343);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgb(230, 0, 0);
+  border-top: 1px solid rgb(230, 0, 0);
 }
 
 .main-nav a {
-	padding-top: 5px;
-	padding-bottom: 6px;
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
-	text-shadow: 1px 1px rgb(230, 0, 0);
+  padding-top: 5px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(230, 0, 0);
 }
 
 .main-nav a:hover {
-	text-shadow: none;
-	color: rgb(230, 0, 0);
-	border-bottom: 3px solid rgb(230, 0, 0);
+  text-shadow: none;
+  color: rgb(230, 0, 0);
+  border-bottom: 3px solid rgb(230, 0, 0);
 }
 
 .main-nav ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin-top: 0px;
-	padding-top: 10px;
-	padding-left: 6rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 6rem;
 }
 
 .main-nav li {
-	padding-right: 2rem;
-  text-decoration:'none';
+  padding-right: 2rem;
+  text-decoration: 'none';
 }

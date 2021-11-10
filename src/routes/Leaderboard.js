@@ -1,7 +1,8 @@
+import React from 'react'
 import './Leaderboard.css'
 
 const Leaderboard = () => {
-  return <div className='leaderboard_container'>Leaderboard</div>
+  return <>Leaderboard</>
 }
 
 export default Leaderboard
