@@ -1,13 +1,7 @@
-import React, { useState, useEffect } from 'react'
-import { Routes, Route } from 'react-router-dom'
-
-import Home from './routes/Home'
-import Pokemon from './routes/Pokemon'
-import Game from './routes/Game'
-import Leaderboard from './routes/Leaderboard'
-import PageNotFound from './routes/PageNotFound'
-
-import Layout from './components/Layout'
+import PokemonCard from './components/PokemonCard'
+import Navigation from './components/Navigation'
+import Footer from './components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css'
 
@@ -38,6 +32,16 @@ function App() {
         </Route>
       </Routes>
     </div>
+    // )
+    // 	<div className="App">
+    // 		<Navigation />
+    // 		<div className="randomCards_container">
+    // 			<PokemonCard />
+    // 			<PokemonCard />
+    // 			<PokemonCard />
+    // 		</div>
+    // 		<Footer />
+    // 	</div>
   )
 }
 

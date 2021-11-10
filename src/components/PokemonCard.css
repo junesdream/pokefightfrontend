@@ -1,13 +1,34 @@
-.pokemoncard_container {
+/* .pokemoncard_container {
   height: 400px;
   width: 200px;
   border: 1px solid black;
   border-radius: 15px;
-  padding: 10px;
-}
+  margin: 10px;
+} */
 
 .pokemoncard_container > img {
-  height: 150px;
-  width: 150px;
-  border-radius: 10px;
+	height: 150px;
+	width: 150px;
+	border-radius: 10px;
+}
+
+/* .card-group {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-bottom: 10px;
+} */
+
+.card {
+	text-align: center;
+	height: 400px;
+	width: 220px;
+	border: 1px solid blue;
+}
+
+.color-body {
+	background: orange;
+}
+
+.footer-card {
+	background-color: red;
 }
