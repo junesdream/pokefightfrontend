@@ -1,6 +1,8 @@
-import PokemonCard from './components/PokemonCard'
-import Navigation from './components/Navigation'
-import Footer from './components/Footer'
+import PokemonCard from './components/PokemonCard';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 import './App.css'
 

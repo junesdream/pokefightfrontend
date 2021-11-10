@@ -13,14 +13,14 @@ const Footer = () => {
 	return (
 		<div className="footer_container">
 			<div className="footer-element">
-				<div className="footer-element-label">Pokemon Element </div>
-				<p>Element 1</p>
-				<p>Element 2</p>
-				<p>Element 3</p>
-				<p>Element 4</p>
+				<div className="footer-element-label">Pokemon Shop </div>
+				<p>Pokeon 1</p>
+				<p>Pokemon 2</p>
+				<p>Pekomon 3</p>
+				<p>Pekomon 4</p>
 			</div>
 			<div className="footer-element">
-				<div className="footer-element-label">Creadits </div>
+				<div className="footer-element-label">Pokemon im Web</div>
 				<p>github</p>
 				<p>react</p>
 				<p>image diretory</p>
