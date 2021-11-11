@@ -7,9 +7,9 @@
 } */
 
 .pokemoncard_container > img {
-	height: 150px;
-	width: 150px;
-	border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
 }
 
 /* .card-group {
@@ -19,16 +19,16 @@
 } */
 
 .card {
-	text-align: center;
-	height: 400px;
-	width: 220px;
-	border: 1px solid blue;
+  text-align: center;
+  height: 400px;
+  width: 220px;
+  border: 1px solid blue;
 }
 
 .color-body {
-	background: orange;
+  background: orange;
 }
 
 .footer-card {
-	background-color: red;
+  background-color: red !important;
 }

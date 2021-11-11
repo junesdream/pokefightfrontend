@@ -1,8 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Nosifer&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Nosifer&display=swap');
 
 .color-nav {
-	/* background-color: yellowgreen; */
-	background-image: linear-gradient(to right top, #47d952, #72d857, #8fd75f, #a6d769, #b8d676);
+  /* background-color: yellowgreen; */
+  background-image: linear-gradient(
+    to right top,
+    #47d952,
+    #72d857,
+    #8fd75f,
+    #a6d769,
+    #b8d676
+  );
 }
 
 /* 
