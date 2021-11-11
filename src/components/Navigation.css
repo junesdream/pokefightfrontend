@@ -42,28 +42,28 @@
 }
 
 .main-nav a {
-	padding-top: 5px;
-	padding-bottom: 6px;
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
-	text-shadow: 1px 1px rgb(230, 0, 0);
+  padding-top: 5px;
+  padding-bottom: 6px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(230, 0, 0);
 }
 
 .main-nav a:hover {
-	text-shadow: none;
-	color: rgb(230, 0, 0);
-	border-bottom: 3px solid rgb(230, 0, 0);
+  text-shadow: none;
+  color: rgb(230, 0, 0);
+  border-bottom: 3px solid rgb(230, 0, 0);
 }
 
 .main-nav ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin-top: 0px;
-	padding-top: 10px;
-	padding-left: 6rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-left: 6rem;
 }
 
 .main-nav li {

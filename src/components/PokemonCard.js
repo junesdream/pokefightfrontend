@@ -1,6 +1,6 @@
 import './PokemonCard.css'
-import React from 'react'
 import { Button, Card } from 'react-bootstrap'
+import React from 'react'
 
 const PokemonCard = () => {
   const pokemon = {
@@ -21,6 +21,10 @@ const PokemonCard = () => {
       SpDefense: 65,
       Speed: 45,
     },
+  }
+
+  const playMore = () => {
+    alert('Great Pokemon!')
   }
 
   return (
