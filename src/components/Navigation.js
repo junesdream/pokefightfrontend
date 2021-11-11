@@ -24,9 +24,9 @@ const Navigation = () => {
             className='me-auto my-2 my-lg-0'
             style={{ maxHeight: '100px' }}
             navbarScroll>
-            <Nav.Link href='#action1'>HOME</Nav.Link>
-            <Nav.Link href='#action2'>POKEMON</Nav.Link>
-            <Nav.Link href='#action3'>RANGLISTE</Nav.Link>
+            <Nav.Link href='/'>HOME</Nav.Link>
+            <Nav.Link href='/pokemon'>POKEMON</Nav.Link>
+            <Nav.Link href='/leaderboard'>RANGLISTE</Nav.Link>
             <NavDropdown title='Link' id='navbarScrollingDropdown'>
               <NavDropdown.Item href='#action3'>Action</NavDropdown.Item>
               <NavDropdown.Item href='#action4'>
@@ -37,9 +37,7 @@ const Navigation = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href='#' disabled>
-              PLAY
-            </Nav.Link>
+            <Nav.Link href='/game'>PLAY</Nav.Link>
           </Nav>
           <Form className='d-flex'>
             <FormControl

@@ -1,5 +1,6 @@
 import './PokemonCard.css'
 import { Button, Card } from 'react-bootstrap'
+import React from 'react'
 
 const PokemonCard = () => {
   const pokemon = {
