@@ -7,6 +7,7 @@ import Pokemon from './routes/Pokemon'
 import Game from './routes/Game'
 import Leaderboard from './routes/Leaderboard'
 import PageNotFound from './routes/PageNotFound'
+import SinglePokemon from './routes/SinglePokemon'
 
 import './App.css'
 
@@ -28,6 +29,10 @@ function App() {
           <Route
             path='/pokemon'
             element={<Pokemon pokemonData={pokemonData} />}
+          />
+          <Route
+            path='/pokemon/:id'
+            element={<SinglePokemon pokemonData={pokemonData} />}
           />
           <Route path='/game' element={<Game />} />
           <Route path='/leaderboard' element={<Leaderboard />} />
