@@ -1,10 +1,15 @@
-/* .pokemoncard_container {
+.pokemoncard_container {
   height: 400px;
   width: 200px;
+  display: flex;
+   flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
   border: 1px solid black;
   border-radius: 15px;
   margin: 10px;
-} */
+}
 
 .pokemoncard_container > img {
   height: 150px;

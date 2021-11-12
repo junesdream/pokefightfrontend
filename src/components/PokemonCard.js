@@ -23,10 +23,6 @@ const PokemonCard = () => {
     },
   }
 
-  const playMore = () => {
-    alert('Great Pokemon!')
-  }
-
   return (
     <Card className='card'>
       <Card.Img variant='top' src={pokemon.image} />

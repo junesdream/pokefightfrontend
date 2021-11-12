@@ -2,14 +2,32 @@
 
 .color-nav {
   /* background-color: yellowgreen; */
-  background-image: linear-gradient(
-    to right top,
-    #47d952,
-    #72d857,
-    #8fd75f,
-    #a6d769,
-    #b8d676
-  );
+background-image: linear-gradient(to right top, #27e137, #00c59e, #00a0f6, #0071ff, #0e0ece);
+font-family: "Fruktur";
+color: #fff;
+width: 100%;
+height: 4rem;
+}
+
+.logo-icon {
+	font-size: 10em;
+	font-weight: bold;
+	width: 100px;
+	color: red;
+	background-color: #0e0ece;
+}
+
+.me-auto my-2 my-lg-0 {
+	display: flex;
+	justify-content: space-evenly;
+	color:white;
+}
+
+.d-flex {
+	color: red;
+}
+.btn btn-primary {
+	color: white;
 }
 
 /* 

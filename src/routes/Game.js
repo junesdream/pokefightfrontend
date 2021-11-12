@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { usestate } from 'react'
+import PokemonCard from "../components/PokemonCard"
 import './Game.css'
 
-const Game = () => {
+const Game = ( { pokemonData } ) => {
+  
   return <>Game</>
 }
 
