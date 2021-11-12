@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 import './PokemonCard.css'
 
@@ -22,9 +23,11 @@ const PokemonCard = ({ pokemon }) => {
               </ul>
             </Card.Text>
             <div className='d-grid gap-2'>
-              <Button variant='primary' size='lg'>
-                See Details
-              </Button>
+              <Link to={`/pokemon/${pokemon.id}`}>
+                <Button variant='primary' size='lg'>
+                  See Details
+                </Button>
+              </Link>
             </div>
           </Card.Body>
           <Card.Footer className='footer-card'>

@@ -6,14 +6,14 @@ import './Pokemon.css'
 
 const Pokemon = ({ pokemonData }) => {
   return (
-    <>
+    <div className='pokemon_container'>
       {pokemonData &&
         pokemonData.slice(0, 30).map((pokemon) => (
           <Link key={pokemon.id} to={`/pokemon/${pokemon.id}`}>
             <PokemonCard pokemon={pokemon} />
           </Link>
         ))}
-    </>
+    </div>
   )
 }
 

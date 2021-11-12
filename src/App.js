@@ -25,7 +25,7 @@ function App() {
     <div className='App'>
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Home pokemonData={pokemonData} />} />
           <Route
             path='/pokemon'
             element={<Pokemon pokemonData={pokemonData} />}
@@ -34,7 +34,7 @@ function App() {
             path='/pokemon/:id'
             element={<SinglePokemon pokemonData={pokemonData} />}
           />
-          <Route path='/game' element={<Game />} />
+          <Route path='/game' element={<Game pokemonData={pokemonData} />} />
           <Route path='/leaderboard' element={<Leaderboard />} />
           <Route path='*' element={<PageNotFound />} />
         </Route>
