@@ -4,7 +4,6 @@ import {
   Button,
   Container,
   Navbar,
-  NavDropdown,
   Nav,
   Form,
   FormControl,
@@ -27,16 +26,6 @@ const Navigation = () => {
             <Nav.Link href='/'>HOME</Nav.Link>
             <Nav.Link href='/pokemon'>POKEMON</Nav.Link>
             <Nav.Link href='/leaderboard'>RANGLISTE</Nav.Link>
-            <NavDropdown title='Link' id='navbarScrollingDropdown'>
-              <NavDropdown.Item href='#action3'>Action</NavDropdown.Item>
-              <NavDropdown.Item href='#action4'>
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href='#action5'>
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
             <Nav.Link href='/game'>PLAY</Nav.Link>
           </Nav>
           <Form className='d-flex'>
