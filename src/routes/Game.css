@@ -2,3 +2,7 @@
   display: flex;
   padding: 40px;
 }
+
+.play_card_container {
+  cursor: pointer;
+}
