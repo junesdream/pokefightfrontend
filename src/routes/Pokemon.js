@@ -10,7 +10,7 @@ const Pokemon = ({ pokemonData }) => {
       {pokemonData &&
         pokemonData.slice(0, 30).map((pokemon) => (
           <Link key={pokemon.id} to={`/pokemon/${pokemon.id}`}>
-            <PokemonCard pokemon={pokemon} />
+            <PokemonCard className="pokemon_card" pokemon={pokemon} />
           </Link>
         ))}
     </div>
