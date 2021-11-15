@@ -10,7 +10,7 @@ const PokemonCard = ({ pokemon }) => {
     <div>
       {pokemon && (
         <Card className='card' id={pokemon.id}>
-          <Card.Img
+          <Card.Img className='card-image'
             variant='top'
             src={`https://img.pokemondb.net/sprites/home/normal/${pokemon.name.english.toLowerCase()}.png`}
           />
@@ -24,7 +24,7 @@ const PokemonCard = ({ pokemon }) => {
             </Card.Text>
             <div className='d-grid gap-2'>
               <Link to={`/pokemon/${pokemon.id}`}>
-                <Button variant='primary' size='lg'>
+                <Button className='btn-card' variant='primary' size='lg'>
                   See Details
                 </Button>
               </Link>

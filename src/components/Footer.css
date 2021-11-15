@@ -4,26 +4,20 @@
   display: flex;
   justify-content: space-evenly;
   text-transform: uppercase;
-  padding-left: 30px;
+  padding-top: 20px;
   font-family: 'Fruktur';
+  margin-top: 50px;
   width: 100%;
-  height: 100%;
+  height: 20%;
   background: linear-gradient(#2b2b2b, #434343);
-  background-image: linear-gradient(
-    to right top,
-    #47d952,
-    #72d857,
-    #8fd75f,
-    #a6d769,
-    #b8d676
-  );
+  background-image: linear-gradient(to right top, #27e137, #00c59e, #00a0f6, #0071ff, #0e0ece);
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.7);
   border-bottom: 1px solid rgb(230, 0, 0);
   border-top: 1px solid rgb(230, 0, 0);
 }
 
 .footer-element p {
-  color: #e6e6e6;
+  color: red;
   cursor: pointer;
   font-size: 12px;
   margin: 3px 0px 0px 16px;
@@ -35,8 +29,10 @@
 }
 
 .footer-element-label {
+  color: white;
   padding-left: 4px;
-  border-left: 12px ridge rgb(202, 33, 90);
+  border-left: 12px ridge rgb(0, 255, 51);
+  border-right: 12px ridge rgb(255, 217, 0);
   padding-right: 10px;
   border-bottom: 1px dashed rgb(202, 33, 90);
   font-weight: 700;
