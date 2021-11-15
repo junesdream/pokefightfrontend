@@ -1,11 +1,16 @@
+body {
+  background-image: linear-gradient(to right top, #ecad17, #d5b608, #bcbd0e, #a1c422, #82c938, #80cb3c, #7dcd40, #7bcf44, #97cf37, #b1ce2c, #cacc25, #e1ca24);
+}
 .home_container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
-  padding-top: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   margin-top: 2em;
-  margin-bottom: 2em;
-  padding-bottom: 2em;
+  margin-bottom: 2em;  
 }
+
+

@@ -1,4 +1,33 @@
 .card_container {
   display: flex;
   padding: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+	width: auto;
 }
+
+.btn_box {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 47%;
+  position: absolute;
+}
+
+.game_btn {
+  font-family: "Luckiest Guy";
+  font-size: 30px;
+  color:rgb(255, 0, 212) !important;
+  border: 2px inset rgb(255, 0, 212);
+  background-color: blue !important;
+  text-align: center;
+}
+
+
