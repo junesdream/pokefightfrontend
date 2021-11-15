@@ -13,21 +13,6 @@
 	width: auto;
 }
 
-.btn_box {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  margin-left: 47%;
-  position: absolute;
+.play_card_container {
+  cursor: pointer;
 }
-
-.game_btn {
-  font-family: "Luckiest Guy";
-  font-size: 30px;
-  color:rgb(255, 0, 212) !important;
-  border: 2px inset rgb(255, 0, 212);
-  background-color: blue !important;
-  text-align: center;
-}
-
-
